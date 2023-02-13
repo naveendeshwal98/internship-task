@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Financial Website
+	</title>
+	<link rel="stylesheet" type="text/css" href="home_contact.css">
+
+	<!-- for adding icons in the footer section for social connection -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+ <nav>
+	<a href="Home.html"><img src="financial.png" alt="logo"></a>  <!-- to create the logo in navigation bar -->
+			<div class="nav-links" >				
+				<ul>					
+					<li> <a href="Home.html"> HOME</a></li>					
+					<li> <a href="Contact.html"> CONTACT</a></li>
+				</ul>	
+			</div>	
+			
+ </nav>	
+</section>
+	<h3>Get in touch!</h3>
+<section class="contact-cl">		
+	<div class="row-form">
+	    <div class="contact-form">	    	
+			<form name="myform" method="post" > 
+				<input id="Username" type="text" name="name" placeholder="enter name" required>
+				<input id="Email" type="email" name="email" placeholder="enter email" required>
+				<input id="Subject" type="text" name="subject"placeholder="enter subject" required>
+				<textarea id="content" rows="8" name="content" placeholder="query description.." required></textarea>
+				<button type="submit" onclick="confirmMessage()"> Submit Query</button>
+			</form>			
+		</div>
+	</div>
+</section>
+<!-- --- footer Section--------- -->
+<section class="footer-contact">				
+		<div class="icons">					<!-- Social Contact -->
+			<a class="fa fa-facebook" href="https://www.facebook.com"></a> 
+			<a class="fa fa-twitter" href="https://twitter.com/aitm_palwal"></a>
+			<a class="fa fa-instagram" href="https://instagram.com"></a>
+			<a class="fa fa-linkedin" href="https://linkedin.com"></a>
+		</div>
+		<p class="ft-text" >@2023 All right reserved</p>
+	</section>
+ <script  type="text/javascript" src="home_contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Segoe UI;	
+	font-size: 30px;
+}
+body{
+	background-size: cover;
+	background-color:#FAFAD2;
+}
+.header{
+	width: 100%;
+	margin-bottom: 35px;
+		
+}
+
+nav{
+	display: flex;
+	align-items: center;							/*to change the position of the links inside the navigation bar*/
+	padding: 2% 3%;
+	justify-content: space-between;
+	background-color:  #557A95;
+}
+nav img {
+	width: 100px;
+	border-radius: 20%;
+	border: none;
+}
+.nav-links{
+	flex: 1;            /*Flexbox is a one-dimensional layout system that we can use to create a row or a column axis layout*/
+	text-align: right;	
+}
+.nav-links ul li{
+	list-style: none;
+	display: inline-block;  /*css for menu items */
+	position: relative;
+	padding: 8px 20px;
+}
+.nav-links ul li a{
+	color: white;
+	text-decoration: none;
+	font-size: 13px;
+}
+.nav-links ul li:hover{
+	border-radius: 20px;
+	box-shadow: 5px 5px 10px 10px; 
+	background-color: rgba(0, 255, 0,0.5);
+
+
+}
+h1{
+font-size: 40px;
+	font-weight: 600;
+	color:#2e8b57;
+	margin-left:36px;
+}
+----------------Contact Page Css-------------
+
+.contact-cl{
+	width: 80%;
+}
+
+h3{
+ font-size: 50px;
+ font-weight: 600;
+ font-family: sans-serif;
+ margin-left: 149px;
+ color: darkgray;
+}
+
+.contact-form input,textarea{	
+	width: 50%;
+	padding: 5px;
+	font-size:25px;
+	margin-left: 150px;
+	margin-top: 10px;	
+	border: 1px solid #A52A2A;
+	box-sizing:border-box;
+	reszie: none;
+	border-radius: 5px;
+
+}
+button{
+	width:245px;
+	height:29px;
+	display: flex;
+	margin-left:147px;
+	padding-left:45px;
+	border-radius: 10px;
+	font-size: 18px;
+	font-weight: 600;
+	background-color:#557A95;
+}
+button:hover{
+	box-shadow: 5px 5px 30px 10px; 
+	background-color: rgba(0, 255, 0,0.5);
+}
+.contact-form textarea{       /*to stop the oversizing of textarea*/
+	resize: none;
+}
+
+/*..................Content/Services Section..............*/
+h2{
+	font-size: 40px;
+	font-weight: 600;
+	color:#2e8b57;
+	margin-left:36px;
+}
+.overview-col p{
+	margin: 10px  40px;
+	font-size: 16px;
+	text-align:left;
+	color: #000;		
+	padding-right: 10px;	
+}
+
+/*media query to fix the size of the columns.*/
+
+@media(max-width:700px){
+	.service-cl{
+		width:80%;	
+	}
+}
+
+/*-------------Services Section-------------*/
+.service-cl{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;
+
+}
+h5{
+	font-size: 40px;
+	font-weight: 600;
+	color:#557A95;
+}
+.serv-row p{
+	color: #777;   /*grey color work on white background*/
+	font-size: 20px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+.serv-row{
+	display:flex;
+	width: 80%;
+	margin: 150px;  
+	margin-top: 0px;
+	text-align: center;
+	padding-top: 30px;
+
+}
+.sub-col{
+	flex-basis: 35%;    /*flex-basis provide three different boxes for in single column*/
+	background: #ADD8E6.;
+	border-radius: 10px;
+	margin:17px;
+	padding: 20px 12px;
+	box-sizing: border-box;	
+	border:solid;
+	transition: 1s; 
+}
+.sub-col:hover{
+box-shadow: 10px 10px 60px 30px rgba(0,1000,0,0.5);
+background-color: rgba(0, 255, 0,0.5);
+transform: rotate3d(1, 1, 1, 45deg));
+transform: rotate3d(1, 1, 1, 45deg);
+transform: rotate3d(2, -1, -1, 0.5turn);
+transform: rotate3d(0, 1, 0.5, 3.142rad);
+}
+
+
+
+/*---------------- Footer section-------------*/
+.footer-contact{
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	padding: 20px 0px;
+	margin-top: 17%;	
+	background-color: lightgreen;
+	font-size: 10px;	
+}
+.footer-home{
+	width: 100%;
+	height: 55px;
+	text-align: center;
+	padding: 20px 0px;
+	margin-top: 40%;	
+	background-color: lightgreen;
+	font-size: 10px;	
+}
+.ft-text{
+		margin-top: 10px;
+		font-size: 15px;
+}
